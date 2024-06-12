@@ -1,0 +1,79 @@
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: #040316;
+    
+  }
+
+
+body{
+  background-color: #FEF0D5;
+  margin: auto;
+  
+ 
+}
+header{ /*isso aqui é a logo e as opções de escolha da pagina*/
+  display: flex; /* pra ficar um do lado do outro */
+  background-color: #003068;
+  justify-content: space-between; 
+  align-items: center; /* alinhas */
+  padding: 16px;
+  
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* espaçamento entre os filhas */
+  color: #040316;
+  
+}
+
+header nav ul/* dá para selecionar um conjunto de especifico*/ {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.logo img{
+    width: 35px;
+    height: 35px;
+    border-radius: 20%;
+    border: 4px solid #040316;}
+.logo h1 {
+    color: #FEF0D5;
+}
+header h1{
+    color: #FEF0D5;
+}
+a{
+    color: #F6EDD9;
+    text-decoration: none;
+  }
+.login{
+    background-color: #003068;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+    gap: 20px;
+    border-radius: 20px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    width: 350px;
+    
+}
+button{
+    background-color: #F6EDD9;
+    color: #003068;
+   margin-bottom: 20px;
+   border-radius: 20px;
+   
+}

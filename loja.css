@@ -1,0 +1,103 @@
+*{
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+}
+body{
+    background-color: #F6EDD9;
+    margin: auto;
+    
+}
+header{
+    display: flex;
+    background-color: #B85B2D;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    color: #F6EDD9;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+img{
+    width: 40px;
+    height: 40%;
+    border-radius: 20%;
+    border: 4px solid black;
+}
+h1{
+    text-shadow: 2px 2px 1px black;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+} 
+a{
+    color: #F6EDD9;
+    text-decoration: none;
+}
+.cachorrofiadaputa { 
+    width: 155px; 
+    height: 300px;
+}
+.casadegato{
+    width: 155px;
+    height: 300px;
+}
+.coleira_1 {
+    width: 155px;
+    height: 155px;
+    
+}
+.petiscogato {
+    width: 155px;
+    height: 155px;
+}
+article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.tudopromoçoes{
+ display: flex;
+ justify-content: center;
+ flex-direction: row;   
+}
+.fotospromoçoes{
+    margin: 10px;
+}
+.promoçoestutu{
+    margin: 10px;
+}
+.produto{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.roupacachorro{
+    width: 155px;
+    height: 155px;
+}
+.produto1{
+    margin: 10px;
+}
+.produto2{
+    margin: 10px;
+}
+.produto3{
+    margin: 10px;
+}
+main{
+    margin: 15px;
+}
